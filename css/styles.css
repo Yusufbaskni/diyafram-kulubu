@@ -262,6 +262,11 @@ a:hover {
   grid-column: span 12;
   min-height: clamp(14rem, 32vw, 22rem);
 }
+.shot-d { grid-column: span 5; }
+.shot-e {
+  grid-column: span 7;
+  min-height: clamp(14rem, 30vw, 20rem);
+}
 
 /* Events */
 .events {
@@ -374,7 +379,9 @@ a:hover {
   .shot,
   .shot-a,
   .shot-b,
-  .shot-c {
+  .shot-c,
+  .shot-d,
+  .shot-e {
     grid-column: auto;
     min-height: 14rem;
   }
