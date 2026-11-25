@@ -354,6 +354,39 @@ a:hover {
 }
 
 /* Home teaser */
+.about {
+  border-top: 1px solid var(--line);
+  background: rgba(243, 247, 244, 0.55);
+}
+
+.about-inner {
+  max-width: var(--max);
+  margin-inline: auto;
+  padding: clamp(3rem, 7vw, 5.25rem) var(--space);
+}
+
+.about-inner h2 {
+  margin: 0 0 1.1rem;
+  max-width: 16ch;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(1.85rem, 4vw, 2.75rem);
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+}
+
+.about-copy {
+  display: grid;
+  gap: 0.95rem;
+  max-width: 42rem;
+}
+
+.about-copy p {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: clamp(1.02rem, 2vw, 1.16rem);
+}
+
 .home-teaser {
   border-top: 1px solid var(--line);
   background: rgba(243, 247, 244, 0.72);
