@@ -356,6 +356,56 @@ a:hover {
   margin-top: 0.75rem;
 }
 
+/* Contact: plain dark type on white */
+.contact-block {
+  margin: 0;
+  max-width: 46rem;
+  background: #ffffff;
+  color: #14201c;
+  font-style: normal;
+  border-top: 1px solid var(--line);
+}
+
+.contact-item {
+  display: grid;
+  grid-template-columns: minmax(7.5rem, 9.5rem) minmax(0, 1fr);
+  gap: 0.35rem 1.5rem;
+  align-items: start;
+  padding: 1.35rem 0;
+  border-bottom: 1px solid var(--line);
+  background: #ffffff;
+  color: #14201c;
+}
+
+.contact-label {
+  margin: 0;
+  padding-top: 0.2rem;
+  font-family: var(--font-brand);
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #14201c;
+}
+
+.contact-item p {
+  margin: 0;
+  color: #14201c;
+  font-size: clamp(1.2rem, 2.4vw, 1.5rem);
+  line-height: 1.45;
+}
+
+.contact-item a {
+  color: #14201c;
+  text-decoration: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
+.contact-item a:hover {
+  color: var(--accent);
+}
+
 /* Home teaser */
 .about {
   border-top: 1px solid var(--line);
@@ -507,6 +557,12 @@ a:hover {
     flex-direction: column;
   }
 
+  .nav {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+  }
+
   .hero {
     grid-template-columns: 1fr;
     align-items: start;
@@ -545,13 +601,20 @@ a:hover {
   }
 
   .event,
-  .post {
+  .post,
+  .contact-item {
     grid-template-columns: 1fr;
     gap: 0.4rem;
   }
 
   .home-teaser-inner {
     align-items: flex-start;
+  }
+}
+
+@media (max-width: 520px) {
+  .hero-photo {
+    margin-top: 8.5rem;
   }
 }
 
