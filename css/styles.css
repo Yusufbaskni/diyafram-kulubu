@@ -38,6 +38,11 @@ body {
   background: #ffffff;
 }
 
+main {
+  background: #ffffff;
+  color: var(--ink);
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -111,19 +116,14 @@ a:hover {
   padding-inline: max(var(--space), calc((100% - var(--max)) / 2));
   overflow: hidden;
   isolation: isolate;
+  background: #ffffff;
 }
 
 .hero-visual {
   position: absolute;
   inset: 0;
   z-index: -1;
-  background:
-    linear-gradient(90deg, rgba(223, 232, 228, 0.88) 0%, rgba(223, 232, 228, 0.35) 42%, rgba(20, 32, 28, 0.18) 100%),
-    radial-gradient(circle at 72% 42%, rgba(243, 247, 244, 0.35) 0 8%, transparent 9%),
-    radial-gradient(circle at 72% 42%, transparent 0 18%, rgba(20, 32, 28, 0.55) 19% 20%, transparent 21%),
-    radial-gradient(circle at 72% 42%, transparent 0 28%, rgba(31, 107, 92, 0.45) 29% 30%, transparent 31%),
-    radial-gradient(circle at 72% 42%, transparent 0 38%, rgba(20, 32, 28, 0.35) 39% 40%, transparent 41%),
-    linear-gradient(135deg, #6f8f86 0%, #2a3f3a 48%, #1a2a26 100%);
+  background: #ffffff;
   animation: lens-drift 18s ease-in-out infinite alternate;
   transform-origin: 70% 45%;
 }
@@ -203,6 +203,7 @@ a:hover {
   padding: 6.5rem var(--space) 4rem;
   max-width: var(--max);
   margin-inline: auto;
+  background: #ffffff;
 }
 
 .page-head {
@@ -358,7 +359,7 @@ a:hover {
 /* Home teaser */
 .about {
   border-top: 1px solid var(--line);
-  background: rgba(243, 247, 244, 0.55);
+  background: #ffffff;
 }
 
 .about-inner {
@@ -391,7 +392,7 @@ a:hover {
 
 .home-teaser {
   border-top: 1px solid var(--line);
-  background: rgba(243, 247, 244, 0.72);
+  background: #ffffff;
 }
 
 .home-teaser-inner {
