@@ -248,6 +248,9 @@ a:hover {
   flex-wrap: wrap;
   justify-content: space-between;
   row-gap: 20px;
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .foto {
