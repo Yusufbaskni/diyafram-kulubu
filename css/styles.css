@@ -331,6 +331,78 @@ a:hover {
   color: #b9c0bc;
 }
 
+/* etkinlik tablosu */
+.tablo {
+  width: 100%;
+  margin: 0 0 56px;
+  border-collapse: collapse;
+  border-top: 1px solid #4e5452;
+  table-layout: fixed;
+}
+
+.tablo th,
+.tablo td {
+  padding: 14px 24px 14px 0;
+  border-bottom: 1px solid #4e5452;
+  text-align: left;
+  vertical-align: top;
+  overflow-wrap: break-word;
+}
+
+.tablo th:nth-child(1),
+.tablo td:nth-child(1) {
+  width: 18%;
+}
+
+.tablo th:nth-child(4),
+.tablo td:nth-child(4) {
+  width: 14%;
+}
+
+.tablo th {
+  font-family: "Syne", "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #a9b0ad;
+}
+
+.tablo .tarih {
+  font-family: "Syne", "Trebuchet MS", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: #63c5b1;
+}
+
+/* yazı sayfası */
+.yazi-baslik h1 {
+  line-height: 1.15;
+}
+
+.yazi-tam p {
+  max-width: 655px;
+  margin: 0 0 16px;
+  font-size: 18px;
+  color: #b9c0bc;
+}
+
+.baglanti {
+  font-family: "Syne", "Trebuchet MS", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #63c5b1;
+}
+
+.baglanti:hover {
+  color: #e8935f;
+}
+
 /* iletişim */
 .iletisim {
   max-width: 736px;
@@ -480,6 +552,41 @@ a:hover {
 
   .yazi h2 {
     font-size: 19px;
+  }
+
+  .tablo {
+    margin-bottom: 40px;
+  }
+
+  .tablo th,
+  .tablo td {
+    padding: 10px 6px 10px 0;
+    font-size: 14px;
+  }
+
+  .tablo th:nth-child(1),
+  .tablo td:nth-child(1) {
+    width: 26%;
+  }
+
+  .tablo th:nth-child(4),
+  .tablo td:nth-child(4) {
+    width: 18%;
+  }
+
+  .tablo th {
+    font-size: 11px;
+    letter-spacing: 0;
+  }
+
+  .tablo .tarih {
+    font-size: 12px;
+    letter-spacing: 0;
+    white-space: normal;
+  }
+
+  .yazi-tam p {
+    font-size: 16px;
   }
 
   .iletisim-satir p {
