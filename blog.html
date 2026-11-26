@@ -8,56 +8,56 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <div class="inner-top">
-    <header class="site-header">
-      <a class="logo" href="index.html">EYM studio</a>
-      <nav class="nav" aria-label="Ana menü">
-        <a href="index.html">Ana Sayfa</a>
-        <a href="galeri.html">Galeri</a>
-        <a href="etkinlikler.html">Etkinlikler</a>
-        <a href="blog.html" aria-current="page">Blog</a>
-        <a href="iletisim.html">İletişim</a>
-      </nav>
+  <!-- üst menü -->
+  <header class="ust">
+    <a class="logo" href="index.html">EYM studio</a>
+    <nav class="menu">
+      <a href="index.html">Ana Sayfa</a>
+      <a href="galeri.html">Galeri</a>
+      <a href="etkinlikler.html">Etkinlikler</a>
+      <a class="aktif" href="blog.html">Blog</a>
+      <a href="iletisim.html">İletişim</a>
+    </nav>
+  </header>
+
+  <main class="sayfa">
+    <header class="sayfa-baslik">
+      <h1>Blog</h1>
+      <p>Kulüp defterinden kısa notlar: ışık, atölye ve sergi.</p>
     </header>
 
-    <main class="page">
-      <header class="page-head">
-        <h1>Blog</h1>
-        <p>Kulüp defterinden kısa notlar: ışık, atölye ve sergi.</p>
-      </header>
+    <!-- yazılar -->
+    <section class="yazilar">
+      <article class="yazi" id="altin-saatte-uc-durak">
+        <time datetime="2026-11-12">12 Kas</time>
+        <div>
+          <h2><a href="#altin-saatte-uc-durak">Altın saatte üç durak</a></h2>
+          <p>Boğaz yürüyüşünden önce ışığı üç yerde denedik: gölge, yansıma ve siluet. Işık yere yatınca taş ile ten aynı sıcaklığı paylaşıyor; acele kare ise gökyüzünü yakıyor.</p>
+          <p>Ölçümü gölgeden alıp bir durak açın. Tripod erken kurulsun. Asıl iş, deklanşöre basmadan önceki bir dakikada bitiyor.</p>
+        </div>
+      </article>
+      <article class="yazi" id="tek-kaynak-yeter">
+        <time datetime="2026-11-20">20 Kas</time>
+        <div>
+          <h2><a href="#tek-kaynak-yeter">Tek kaynak yeter</a></h2>
+          <p>Stüdyo atölyesinde düzenek sade: bir ışık, bir fon, bir adım mesafe. Kaynak 45 dereceden gelince yüzde hacim beliriyor, arka plan kendi gölgesini taşıyor.</p>
+          <p>Yumuşak kutuyu çıplak ampulle yan yana deneyin. Fark yüzde değil, gölgenin kenarında duruyor.</p>
+        </div>
+      </article>
+      <article class="yazi" id="duvara-yirmi-dort-kare">
+        <time datetime="2026-11-24">24 Kas</time>
+        <div>
+          <h2><a href="#duvara-yirmi-dort-kare">Duvara yirmi dört kare</a></h2>
+          <p>Ocak sergisi için her üyeden üç kare istedik. Aradığımız en keskin fotoğraf değil; yanındakilerle bir cümle kuran kare. Sıra sokak, stüdyo ve doğa arasında gidip geliyor.</p>
+          <p>Açılış 10 Ocak, saat 18:00. Baskı listesi kulüp panosunda.</p>
+        </div>
+      </article>
+    </section>
+  </main>
 
-      <section class="posts" aria-label="Yazılar">
-        <article class="post" id="altin-saatte-uc-durak">
-          <time datetime="2026-11-12">12 Kas</time>
-          <div>
-            <h2><a href="#altin-saatte-uc-durak">Altın saatte üç durak</a></h2>
-            <p>Boğaz yürüyüşünden önce ışığı üç yerde denedik: gölge, yansıma ve siluet. Işık yere yatınca taş ile ten aynı sıcaklığı paylaşıyor; acele kare ise gökyüzünü yakıyor.</p>
-            <p>Ölçümü gölgeden alıp bir durak açın. Tripod erken kurulsun. Asıl iş, deklanşöre basmadan önceki bir dakikada bitiyor.</p>
-          </div>
-        </article>
-        <article class="post" id="tek-kaynak-yeter">
-          <time datetime="2026-11-20">20 Kas</time>
-          <div>
-            <h2><a href="#tek-kaynak-yeter">Tek kaynak yeter</a></h2>
-            <p>Stüdyo atölyesinde düzenek sade: bir ışık, bir fon, bir adım mesafe. Kaynak 45 dereceden gelince yüzde hacim beliriyor, arka plan kendi gölgesini taşıyor.</p>
-            <p>Yumuşak kutuyu çıplak ampulle yan yana deneyin. Fark yüzde değil, gölgenin kenarında duruyor.</p>
-          </div>
-        </article>
-        <article class="post" id="duvara-yirmi-dort-kare">
-          <time datetime="2026-11-24">24 Kas</time>
-          <div>
-            <h2><a href="#duvara-yirmi-dort-kare">Duvara yirmi dört kare</a></h2>
-            <p>Ocak sergisi için her üyeden üç kare istedik. Aradığımız en keskin fotoğraf değil; yanındakilerle bir cümle kuran kare. Sıra sokak, stüdyo ve doğa arasında gidip geliyor.</p>
-            <p>Açılış 10 Ocak, saat 18:00. Baskı listesi kulüp panosunda.</p>
-          </div>
-        </article>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <span>EYM studio</span>
-      <a href="etkinlikler.html">Etkinlik takvimi</a>
-    </footer>
-  </div>
+  <footer class="alt">
+    <span>EYM studio</span>
+    <a href="etkinlikler.html">Etkinlik takvimi</a>
+  </footer>
 </body>
 </html>

@@ -8,10 +8,11 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header class="site-header">
+  <!-- üst menü -->
+  <header class="ust">
     <a class="logo" href="index.html">EYM studio</a>
-    <nav class="nav" aria-label="Ana menü">
-      <a href="index.html" aria-current="page">Ana Sayfa</a>
+    <nav class="menu">
+      <a class="aktif" href="index.html">Ana Sayfa</a>
       <a href="galeri.html">Galeri</a>
       <a href="etkinlikler.html">Etkinlikler</a>
       <a href="blog.html">Blog</a>
@@ -20,34 +21,35 @@
   </header>
 
   <main>
-    <section class="hero" aria-label="Karşılama">
-      <div class="hero-visual" aria-hidden="true"></div>
-      <img class="hero-photo" src="images/sahil-fotografci.jpg" width="1024" height="682" alt="Gün batımında denize karşı teleobjektifle fotoğraf çeken biri, ufukta İstanbul silüeti">
-      <div class="hero-copy">
-        <p class="brand-mark">EYM studio</p>
-        <h1 class="hero-title">Işığı birlikte çerçeveliyoruz</h1>
-        <p class="hero-lead">Şehirde, doğada ve stüdyoda buluşan amatör ve profesyonel fotoğrafçılar kulübü.</p>
-        <a class="cta" href="galeri.html">Galeriyi Keşfet</a>
+    <section class="giris">
+      <img class="giris-foto" src="images/sahil-fotografci.jpg" alt="Sahilde fotoğrafçı">
+      <div class="giris-yazi">
+        <p class="marka">EYM studio</p>
+        <h1>Işığı birlikte çerçeveliyoruz</h1>
+        <p class="giris-aciklama">Şehirde, doğada ve stüdyoda buluşan amatör ve profesyonel fotoğrafçılar kulübü.</p>
+        <a class="buton" href="galeri.html">Galeriyi Keşfet</a>
       </div>
     </section>
 
-    <section class="about" id="biz-kimiz" aria-labelledby="biz-kimiz-baslik">
-      <div class="about-inner">
-        <p class="home-kicker">Biz kimiz</p>
-        <h2 id="biz-kimiz-baslik">Işığı birlikte gör. Çerçevele. Paylaş.</h2>
-        <div class="about-copy">
+    <!-- biz kimiz -->
+    <section class="hakkinda" id="biz-kimiz">
+      <div class="hakkinda-ic">
+        <p class="kucuk-baslik">Biz kimiz</p>
+        <h2>Işığı birlikte gör. Çerçevele. Paylaş.</h2>
+        <div class="hakkinda-yazi">
           <p>EYM studio, fotoğrafı yalnızca teknik bir beceri olarak değil; bakmayı, ışığı ve insanlarla kurduğumuz bağı geliştiren bir deneyim olarak gören bir fotoğraf kulübüdür.</p>
           <p>Şehirde, doğada ve stüdyoda üretmek, yeni kadrajlar denemek ve fotoğrafla ilgilenen insanlarla bir araya gelmek için buradayız.</p>
         </div>
       </div>
     </section>
 
-    <section class="home-teaser" id="kulup-defteri" aria-label="Blog">
-      <div class="home-teaser-inner">
+    <!-- blog tanıtımı -->
+    <section class="tanitim" id="kulup-defteri">
+      <div class="tanitim-ic">
         <div>
-          <p class="home-kicker">Blog</p>
+          <p class="kucuk-baslik">Blog</p>
           <h2>Kulüp defterinden</h2>
-          <p class="home-teaser-copy">Altın saat, tek ışık ve sergi seçkisi üzerine üç kısa not.</p>
+          <p class="tanitim-yazi">Altın saat, tek ışık ve sergi seçkisi üzerine üç kısa not.</p>
         </div>
         <a href="blog.html">Yazıları oku</a>
       </div>

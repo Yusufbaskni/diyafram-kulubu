@@ -8,55 +8,55 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <div class="inner-top">
-    <header class="site-header">
-      <a class="logo" href="index.html">EYM studio</a>
-      <nav class="nav" aria-label="Ana menü">
-        <a href="index.html">Ana Sayfa</a>
-        <a href="galeri.html">Galeri</a>
-        <a href="etkinlikler.html" aria-current="page">Etkinlikler</a>
-        <a href="blog.html">Blog</a>
-        <a href="iletisim.html">İletişim</a>
-      </nav>
+  <!-- üst menü -->
+  <header class="ust">
+    <a class="logo" href="index.html">EYM studio</a>
+    <nav class="menu">
+      <a href="index.html">Ana Sayfa</a>
+      <a href="galeri.html">Galeri</a>
+      <a class="aktif" href="etkinlikler.html">Etkinlikler</a>
+      <a href="blog.html">Blog</a>
+      <a href="iletisim.html">İletişim</a>
+    </nav>
+  </header>
+
+  <main class="sayfa">
+    <header class="sayfa-baslik">
+      <h1>Etkinlikler</h1>
+      <p>Açık hava yürüyüşleri, stüdyo atölyeleri ve üye sergileri.</p>
     </header>
 
-    <main class="page">
-      <header class="page-head">
-        <h1>Etkinlikler</h1>
-        <p>Açık hava yürüyüşleri, stüdyo atölyeleri ve üye sergileri.</p>
-      </header>
+    <p class="bilgi">Katılım ücretsizdir; yer sınırlıdır. Detay için kulüp panosunu takip edin.</p>
 
-      <p class="section-note">Katılım ücretsizdir; yer sınırlıdır. Detay için kulüp panosunu takip edin.</p>
+    <!-- etkinlik listesi -->
+    <section class="etkinlikler">
+      <article class="etkinlik">
+        <time datetime="2026-12-06">6 Ara</time>
+        <div>
+          <h2>Altın Saat Yürüyüşü</h2>
+          <p>Boğaz kıyısında gün batımı ışığı — tripod önerilir.</p>
+        </div>
+      </article>
+      <article class="etkinlik">
+        <time datetime="2026-12-14">14 Ara</time>
+        <div>
+          <h2>Portre Işığı Atölyesi</h2>
+          <p>Tek ışık kaynağıyla stüdyo kurulumu ve pozlama pratiği.</p>
+        </div>
+      </article>
+      <article class="etkinlik">
+        <time datetime="2027-01-10">10 Oca</time>
+        <div>
+          <h2>Üye Sergisi: Kare</h2>
+          <p>Seçilen 24 fotoğrafın basılı sergisi — açılış 18:00.</p>
+        </div>
+      </article>
+    </section>
+  </main>
 
-      <section class="events" aria-label="Etkinlik listesi">
-        <article class="event">
-          <time datetime="2026-12-06">6 Ara</time>
-          <div>
-            <h2>Altın Saat Yürüyüşü</h2>
-            <p>Boğaz kıyısında gün batımı ışığı — tripod önerilir.</p>
-          </div>
-        </article>
-        <article class="event">
-          <time datetime="2026-12-14">14 Ara</time>
-          <div>
-            <h2>Portre Işığı Atölyesi</h2>
-            <p>Tek ışık kaynağıyla stüdyo kurulumu ve pozlama pratiği.</p>
-          </div>
-        </article>
-        <article class="event">
-          <time datetime="2027-01-10">10 Oca</time>
-          <div>
-            <h2>Üye Sergisi: Kare</h2>
-            <p>Seçilen 24 fotoğrafın basılı sergisi — açılış 18:00.</p>
-          </div>
-        </article>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <span>EYM studio</span>
-      <a href="galeri.html">Galeriye dön</a>
-    </footer>
-  </div>
+  <footer class="alt">
+    <span>EYM studio</span>
+    <a href="galeri.html">Galeriye dön</a>
+  </footer>
 </body>
 </html>
